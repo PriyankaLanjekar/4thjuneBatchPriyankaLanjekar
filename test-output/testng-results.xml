@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-10T09:45:48 IST" name="CrossbrowserSuite" finished-at="2022-10-10T09:48:02 IST" duration-ms="134723">
+    <groups>
+    </groups>
+    <test started-at="2022-10-10T09:45:48 IST" name="HighPriorityTest" finished-at="2022-10-10T09:46:45 IST" duration-ms="57755">
+      <class name="com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay@506ae4d4]" started-at="2022-10-10T09:45:48 IST" name="setUP" finished-at="2022-10-10T09:46:30 IST" duration-ms="42068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="verifyloginnegativefunctionality()[pri:0, instance:com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay@506ae4d4]" started-at="2022-10-10T09:46:30 IST" name="verifyloginnegativefunctionality" finished-at="2022-10-10T09:46:36 IST" duration-ms="6205" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay.verifyloginnegativefunctionality(TC02_LoginfunctionalityNegativeWay.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginnegativefunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay@506ae4d4]" started-at="2022-10-10T09:46:36 IST" name="teardown" finished-at="2022-10-10T09:46:45 IST" duration-ms="9200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay -->
+      <class name="com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct@434a63ab]" started-at="2022-10-10T09:45:48 IST" name="setUP" finished-at="2022-10-10T09:46:30 IST" duration-ms="41712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="verifyproceedtobuyfunctionality()[pri:0, instance:com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct@434a63ab]" started-at="2022-10-10T09:46:30 IST" name="verifyproceedtobuyfunctionality" finished-at="2022-10-10T09:46:44 IST" duration-ms="14485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproceedtobuyfunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct@434a63ab]" started-at="2022-10-10T09:46:44 IST" name="teardown" finished-at="2022-10-10T09:46:45 IST" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct -->
+      <class name="com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality@b9b00e0]" started-at="2022-10-10T09:45:48 IST" name="setUP" finished-at="2022-10-10T09:46:30 IST" duration-ms="42569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="loginfuctionality()[pri:0, instance:com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality@b9b00e0]" started-at="2022-10-10T09:46:30 IST" name="loginfuctionality" finished-at="2022-10-10T09:46:34 IST" duration-ms="4088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfuctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality@b9b00e0]" started-at="2022-10-10T09:46:34 IST" name="teardown" finished-at="2022-10-10T09:46:40 IST" duration-ms="5841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality -->
+    </test> <!-- HighPriorityTest -->
+    <test started-at="2022-10-10T09:46:46 IST" name="LowPriorityTest" finished-at="2022-10-10T09:48:02 IST" duration-ms="76744">
+      <class name="com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay@738dc9b]" started-at="2022-10-10T09:46:46 IST" name="setUP" finished-at="2022-10-10T09:47:54 IST" duration-ms="68835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="verifyloginnegativefunctionality()[pri:0, instance:com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay@738dc9b]" started-at="2022-10-10T09:47:54 IST" name="verifyloginnegativefunctionality" finished-at="2022-10-10T09:47:57 IST" duration-ms="2908" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/] but found [https://www.saucedemo.com/inventory.html]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay.verifyloginnegativefunctionality(TC02_LoginfunctionalityNegativeWay.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginnegativefunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay@738dc9b]" started-at="2022-10-10T09:47:57 IST" name="teardown" finished-at="2022-10-10T09:48:02 IST" duration-ms="4965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay -->
+      <class name="com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct@55a147cc]" started-at="2022-10-10T09:46:46 IST" name="setUP" finished-at="2022-10-10T09:47:41 IST" duration-ms="55519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="verifyproceedtobuyfunctionality()[pri:0, instance:com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct@55a147cc]" started-at="2022-10-10T09:47:41 IST" name="verifyproceedtobuyfunctionality" finished-at="2022-10-10T09:47:48 IST" duration-ms="6513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproceedtobuyfunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct@55a147cc]" started-at="2022-10-10T09:47:48 IST" name="teardown" finished-at="2022-10-10T09:48:00 IST" duration-ms="12060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Saucedemo.TestClasses.TC06_ProceedToCheckOuProduct -->
+      <class name="com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality@71ba6d4e]" started-at="2022-10-10T09:46:46 IST" name="setUP" finished-at="2022-10-10T09:47:30 IST" duration-ms="44086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="loginfuctionality()[pri:0, instance:com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality@71ba6d4e]" started-at="2022-10-10T09:47:30 IST" name="loginfuctionality" finished-at="2022-10-10T09:47:31 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfuctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality@71ba6d4e]" started-at="2022-10-10T09:47:31 IST" name="teardown" finished-at="2022-10-10T09:47:49 IST" duration-ms="18514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Saucedemo.TestClasses.TC01_VerifyLoginFunctionality -->
+    </test> <!-- LowPriorityTest -->
+  </suite> <!-- CrossbrowserSuite -->
+</testng-results>

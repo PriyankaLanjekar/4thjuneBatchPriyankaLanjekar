@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrossbrowserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="HighPriorityTest(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay">
+        <methods>
+          <include name="setUP"/>
+          <include name="verifyloginnegativefunctionality"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay -->
+    </classes>
+  </test> <!-- HighPriorityTest(failed) -->
+  <test thread-count="5" parallel="classes" name="LowPriorityTest(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay">
+        <methods>
+          <include name="setUP"/>
+          <include name="verifyloginnegativefunctionality"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Saucedemo.TestClasses.TC02_LoginfunctionalityNegativeWay -->
+    </classes>
+  </test> <!-- LowPriorityTest(failed) -->
+</suite> <!-- Failed suite [CrossbrowserSuite] -->
